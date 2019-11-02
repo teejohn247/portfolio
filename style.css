@@ -30,7 +30,7 @@ header{
     height: 100vh;
 
 }
-.overlay{
+.overla{
     background: rgba(0,0,0,0.9);
     height: 100vh;
 
@@ -47,6 +47,78 @@ header{
     border-bottom-right-radius: 15px;
 
 }
+.pick{
+    margin-top: 10%;
+}
+textarea{
+    height: 250px;
+}
+::placeholder{
+    color:white;
+    font-weight: 400;
+    font:"roboto";
+    font-size: 16px;
+    padding: 10px;
+}
+.pick input:focus{
+    border:none;
+    border-color: #0CBA9F;
+}
+.pick input, textarea{
+    background-color: #100E17;
+    border:1px solid white;
+    width: 90%;
+    padding: 10px;
+    border-radius:5px;
+}
+.dd{
+    margin-top: 5%;
+}
+.one{
+    background-color: #1E1D22;
+    
+padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.9);
+}
+.each{
+     border:1px solid #0CBA9F;
+    border-radius: 50%;
+    margin: 10px;
+    width:50px;
+    height:50px; 
+    
+}
+.one{
+    margin-top: 10px;
+}
+.each i{
+   width:50px;
+   height: 50px;
+   text-align: center;
+   margin-top: 7px;
+}
+.bb{
+    margin-top: 5%;
+}
+.ee{
+    margin-bottom: 10%;
+}
+.last{
+    width: 90%;
+    padding: 10px;
+    background-color: #0CBA9F;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.dd{
+    margin-top: 5%;
+}
+
+.te{
+    text-align: center;
+}
+
 
 .nam{
     margin-top: 5%;
@@ -140,7 +212,170 @@ i{
 .gl{
     margin-top: 10%;
 }
+.nom{
+    position:relative; 
+    left:40%;
+}
+.nome{
+    position:relative; 
+    left:1%;
+}
+.progress-bar{
+  background-color:#0CBA9F;
+}
+.progress{
+    height: 7px;
+  margin: 5px;
+}
+.ed{
+    margin-top: 20%;
+}
+.mh{
+    margin-top: 10%;
+ background-color: #1F1E24;
+ padding: 40px;
+ font-weight: 600;
+ box-shadow: 0px 4px 28px rgba(0,0,0,0.9);
+ 
+}
+.mh h4{
+ font-size: 20px;
+ font-weight: 600;
+}
+.mh a {
+    color: #0CBA9F;
+ font-weight: 600;
 
+}
+.mh li{
+    list-style: none;
+}
+.mii{
+    margin-top: 20%;
+}
+.mi{
+    background-color: #1F1E24;
+    margin-top: 10%;
+    padding: 20px;
+}
+.mi p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.mi ul{
+    list-style: none;
+}
+.mi i{
+    font-size: 10px;
+    margin-left: 0%;
+}
+.mi h4{
+    font-weight: 600;
+
+}
+.mi a{
+    color: #0CBA9F;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bg3{
+    background-image: url('images/bg.jpg');
+}
+.ver3{
+    background-color: rgba(0,0,0,0.9);
+}
+.bg4{
+    background-image: url('images/bg.jpg');
+}
+.ver4{
+    background-color: rgba(0,0,0,0.9);
+}
+.m12{
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contain {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+  }
+.mk{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    height: auto;
+    opacity: 0;
+    border-radius: 20px;
+    transition: .5s ease;
+    background-color: #0CBA9F;
+  }
+  .m13:hover .overlay {
+    opacity: 0.9;
+  }
+  .m14:hover .overlay {
+    opacity: 0.9;
+  }
+  .m15:hover .overlay {
+    opacity: 0.9;
+  }
+  .m16:hover .overlay {
+    opacity: 0.9;
+  }
+  .m17:hover .overlay {
+    opacity: 0.9;
+  }
+  .m18:hover .overlay {
+    opacity: 0.9;
+  }
+  .m19:hover .overlay {
+    opacity: 0.9;
+  }
+  .m20:hover .overlay {
+    opacity: 0.9;
+  }
+  .m21:hover .overlay {
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .portfolio-nav {
+     text-align: center;
+     margin-top: 10px;
+  }
+  .portfolio-nav li{
+      list-style-type: none;
+      display: inline;
+      padding: 10px;
+
+  }
+  .portfolio-nav li:hover{
+    border-bottom: 2px solid #0CBA9F;
+    cursor: pointer;
+
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 .panel-heading {
     -webkit-touch-callout: none;
@@ -149,6 +384,21 @@ i{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;    
+}
+.work{
+    margin-top:10%;
+}
+.call{
+    background-color: #0CBA9F;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color:white;
+    width:10%;
+    font-weight: 700;
+}
+.do{
+    margin-bottom:8%;
 }
 
 .side-tab:hover {
