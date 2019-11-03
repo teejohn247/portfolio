@@ -8,7 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-   
+    <script src="index.js"></script>
+    
+    <!-- <script>
+    $('#myCarousel').carousel({
+  interval: 5000
+})
+    </script> -->
 </head>
 <body>
     <header >
@@ -23,19 +29,19 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="#">Experience</a>
+              <a class="nav-link" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -63,7 +69,7 @@
     <section>
       <div class="over">
         <div class="container">
-          <div class="row">
+          <div class="row"  id="about">
             <div class="col-md-6">
               <img src="images/ab-img.png" class="wid">
             </div>
@@ -122,106 +128,151 @@
       </div>
     </section>
   
-    <section class="bg2">
-      <div class="ver">
-          <div class="container">
-              <div class="row ">
-                  <div class="col-md-4 mm">
-                      <!-- begin panel group -->
-                      <div class="panel-group " id="accordion" role="tablist" aria-multiselectable="true">
-                          
-                          <!-- panel 1 -->
-                          <div class="panel panel-default">
-                              <!--wrap panel heading in span to trigger image change as well as collapse -->
-                                  <div class="panel-heading" role="tab" id="headingOne"data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                      <h4 class="panel-title">TAB 1</h4>
-                                  </div>
-                              </span>
-                              
-                              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                  <div class="panel-body">
-                                  <!-- Tab content goes here -->
-                                  That fall, as Nadia and Masha got shipped off to prison camps in Siberia, South Brooklyn tried to recover from the storm. My dad and I spent a lot of time in the same apartment engrossed in separate laptops, separate internet missives. He followed Russian news bloggers closely and would update me on troubling developments. A rise in protofascist nationalism
-                                  </div>
-                              </div>
-                          </div> 
-                          <!-- / panel 1 -->
-                          
-                          <!-- panel 2 -->
-                          <div class="panel panel-default">
-                              <!--wrap panel heading in span to trigger image change as well as collapse -->
-                              <span class="side-tab" data-target="#tab2" data-toggle="tab" role="tab" aria-expanded="false">
-                                  <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                      <h4 class="panel-title collapsed">TAB 2</h4>
-                                  </div>
-                              </span>
-          
-                              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                  <div class="panel-body">
-                                  <!-- Tab content goes here -->
-                                  tab 2 content
-                                  </div>
-                              </div>
-                          </div>
-                          <!-- / panel 2 -->
-                          
-                          <!--  panel 3 -->
-                          <div class="panel panel-default">
-                              <!--wrap panel heading in span to trigger image change as well as collapse -->
-                              <span class="side-tab" data-target="#tab3" data-toggle="tab" role="tab" aria-expanded="false">
-                                  <div class="panel-heading" role="tab" id="headingThree"  class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                      <h4 class="panel-title">TAB 3 </h4>
-                                  </div>
-                              </span>
-          
-                                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                    <!-- tab content goes here -->
-                                     tab 3 content
-                                    </div>
-                                  </div>
-                                </div>
-                      </div> <!-- / panel-group -->
-                       
-                  </div> <!-- /col-md-4 -->
-                  
-                  <div class="col-md-8 col-sm-12 gl">
-                      <!-- begin macbook pro mockup -->
-                      <div class="md-macbook-pro md-glare ">
-                          <div class="md-lid">
-                              <div class="md-camera "></div>
-                              <div class="md-screen ">
-                              <!-- content goes here -->                
-                                  <div class="tab-featured-image ">
-                                      <div class="tab-content" >
-                                          <div class="tab-pane  in active" id="tab1">
-                                                  <img src="images/femopesite.jpg" alt="tab1" class="img img-responsive"
-                                                  style="width:100%">
-                                          </div>
-                                          <div class="tab-pane " id="tab2">
-                                                  <img src="images/heydensite.jpg">
-                                          </div>
-                                          <div class="tab-pane fade" id="tab3">
-                                                  <img src="images/honeysite.jpg" alt="tab1" class="img img-responsive">
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="md-base"></div>
-                      </div> <!-- end macbook pro mockup -->
-          
-          
-          
-                  </div> <!-- / .col-md-8 -->
-              </div> <!--/ .row -->
-          </div> <!-- end sidetab container -->
-      </div>
+
+    
     </section>
+    <section class="bg2">
+        <div class="ver">
+    <div class="container text-center ">
+        <div class="row ">
+            <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active" >
+                        <div class="row">
+                            <div class="col-md-7" style="margin-top:10%;" >
+                                <div class="md-macbook-pro md-glare ">
+                                    <div class="md-lid">
+                                        <div class="md-camera "></div>
+                                        <div class="md-screen ">
+                                            <div class="tab-featured-image ">
+                                                <div class="tab-content" >
+                                                    <div class="tab-pane  in active" id="tab1">
+                                <img src="images/femopesite.jpg">
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                              </div>
+                            <div class="col-md-5" class="adjust" style="margin-top:10%;">
+                              <h6 class="wb" style="margin-top:20%;">WEB DESIGN</h6>
+                              <h1>FEMOPE LIMITED</h1>
+                              <h6>DESIGN & DEVELOPMENT</h6>
+                              <P>www.femope.com is a website built with  HTML,CSS,JavaScript,PHP and MySQL</P>
+                              <button href="femope.com" class="last" style="width:50%;">Visit Website</button>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="carousel-item" >
+                        <div class="row">
+                            <div class="col-md-7 col-sm-12" style="margin-top:10%;" >
+                                <div class="md-macbook-pro md-glare ">
+                                    <div class="md-lid">
+                                        <div class="md-camera "></div>
+                                        <div class="md-screen ">
+                                        <!-- content goes here -->                
+                                            <div class="tab-featured-image ">
+                                                <div class="tab-content" >
+                                                    <div class="tab-pane  in active" id="tab1">
+                                <img src="images/heydensite.jpg">
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                              </div>
+                              <div class="col-md-5 col-sm-12" style="margin-top:10%;">
+                                  <h6 class="wb" style="margin-top:20%;">WEB DESIGN</h6>
+                                  <h1>HEYDEN PETROLEUM</h1>
+                                  <h6>DESIGN & DEVELOPMENT</h6>
+                                  <P>This is a website built with  HTML,CSS,JavaScript</P>
+                                  <button href="heyden.atvirtualnews.com" class="last" style="width:50%;">Visit Website</button>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" >
+                        <div class="row">
+                            <div class="col-md-7" style="margin-top:10%;" >
+                                <div class="md-macbook-pro md-glare ">
+                                    <div class="md-lid">
+                                        <div class="md-camera "></div>
+                                        <div class="md-screen ">
+                                        <!-- content goes here -->                
+                                            <div class="tab-featured-image ">
+                                                <div class="tab-content" >
+                                                    <div class="tab-pane  in active" id="tab1">
+                                <img src="images/naomisite.jpg">
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                              </div>
+                              <div class="col-md-5" class="adjust" style="margin-top:10%;">
+                                  <h6 class="wb" style="margin-top:20%;">WEB DESIGN</h6>
+                                  <h1>NAOMI ABEL DESIGNS</h1>
+                                  <h6>DESIGN & DEVELOPMENT</h6>
+                                  <P>This is an e-commerce website built with WordPress,PHP</P>
+                                  <button href="naomiabeldesigns.com" class="last" style="width:50%;">Visit Website</button>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" >
+                        <div class="row">
+                            <div class="col-md-7" style="margin-top:10%;">
+                                <div class="md-macbook-pro md-glare ">
+                                    <div class="md-lid">
+                                        <div class="md-camera "></div>
+                                        <div class="md-screen ">
+                                        <!-- content goes here -->                
+                                            <div class="tab-featured-image ">
+                                                <div class="tab-content" >
+                                                    <div class="tab-pane  in active" id="tab1">
+                                <img src="images/honeysite.jpg">
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                              </div>
+                              <div class="col-md-5" class="adjust" style="margin-top:10%;">
+                                  <h6 class="wb" style="margin-top:20%;">WEB DESIGN</h6>
+                                  <h1>HONEYTREAT LIMITED</h1>
+                                  <h6>DESIGN & DEVELOPMENT</h6>
+                                  <P>This is an e-commerce website built with WordPress,PHP</P>
+
+                                  <button href="honeytreatacademy.com" class="last" style="width:50%;">Visit Website</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <a class="carousel-control-prev text-dark" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="fa fa-chevron-left text-white" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next text-dark" href="#myCarousel" role="button" data-slide="next">
+                    <span class="fa fa-chevron-right text-white" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    
+    
     <section>
       <div class="over">
         <div class="container">
-          <div class="row">
+          <div class="row" id="skills">
             <div class="col-md-6" style="margin:10px;">
               <h2 class="text-center mt-5">Technical Skills</h2>
               <div class="info" style="margin-top:10%;">
@@ -329,7 +380,7 @@
                           </div>
                   </div>
                   </div>
-                  <div class="col-sm-12 col-md-6">
+                  <div class="col-sm-12 col-md-6" id="experience">
                       <div class="mii" >
                            <h3>Work Experience</h3>
                           <div >
@@ -369,18 +420,19 @@
       <section>
           <div class="over ">
             <div class="container ">
-              <div class="row " >
-                <div class="col-md-12  m12">
+              <div class="row hide" >
+                <div class="col-md-12  m12" id="portfolio">
                   <h4 class="text-center">Recent Portfolio</h4>
                 </div>
                 <div class="portfolio-nav col-md-12 " id="filter-button">
                     <ul class="ml-auto mr-auto">
-                        <li data-filter="*" class="current text-center"> <span>All Categories</span></li>
-                        <li data-filter=".web" class="wow1 text-center"><span>Web Design</span></li>
-                        <li data-filter=".graphics" class="wow2 text-center"><span>Graphic Design</span></li>
+                      <!-- <button class="all" onclick="filter()">click</button> -->
+                        <li data-filter="*" class=" current text-center"> <span>All Categories</span></li>
+                        <li data-filter=".web" class="web wow1 text-center"><span>Web Design</span></li>
+                        <li data-filter=".graphics" class="graphics wow2 text-center"><span>Graphic Design</span></li>
                     </ul>
                 </div>
-                <div class="col-md-4 web">
+                <div class="col-md-4 all1">
                     <div class="contain m16">
                       <img src="images/01.jpg" class="mk">
                       <div class="overlay w-100" >
@@ -462,7 +514,7 @@
         <section>
             <div class="over">
               <div class="container">
-                <div class="row">
+                <div class="row"  id="contact">
                   <div class="col-md-6 dd">
                     <div class="one">
                         <div class="each ml-auto mr-auto"> <i class="fa fa-location-arrow "></i></div>
