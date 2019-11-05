@@ -12,7 +12,7 @@ This portfolio is a compilation of materials that exemplifies my beliefs, skills
 * Javascript
 
 ### GitHub Pages link
-[AutoMart/UI link](https://teejohn247.github.io/portfolio)
+[Portfolio link](https://teejohn247.github.io/portfolio)
 ### SCREENSHOT
 ![alt portfolio](https://teejohn247.github.io/portfolio/images/port.png)
 
