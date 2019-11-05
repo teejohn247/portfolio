@@ -37,7 +37,6 @@ header{
 .overla{
     background: rgba(0,0,0,0.9);
     height: 100vh;
-
 }
 .hello{
     margin-top: 37%;
@@ -179,7 +178,7 @@ nav{
     margin-top: 20%;
 }
 .mo{
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .mo h2{
     font-weight: 400;
@@ -357,6 +356,25 @@ nav{
     opacity: 0.9;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .m29:hover .overlay {
+    opacity: 0.9;
+  }
+  .m30:hover .overlay {
+    opacity: 0.9;
+  }
+  .m31:hover .overlay {
+    opacity: 0.9;
+  }
+  .m32:hover .overlay {
+    opacity: 0.9;
+  }
+  .m33:hover .overlay {
+    opacity: 0.9;
+  }
+  .m34:hover .overlay {
+    opacity: 0.9;
   }
   .portfolio-nav {
      text-align: center;
@@ -557,7 +575,7 @@ background-color: #1F1E24;
   margin: 0 auto;
   position: relative;
   bottom: -0.1875em;
-  background: #b9babe;
+  background: #fcfcfc;
   border-radius: 0 0 1.25em 1.25em;
 }
 .md-macbook-pro .md-base:before {
@@ -614,14 +632,22 @@ background-color: #1F1E24;
     .m{
         margin: 20%;
     }
+   
+    .bg{
+        height: 100%;
+    }
+    .overla{
+        height: 100%;
+    }
     .mo{
-        margin-bottom: 100%;
-
+       /* margin-top: 100%; */
     }
-    .overlay{
-        height: auto;
+    .sd{
+        margin-bottom: 5%;
     }
-        
+    .call{
+        width: 30%;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .marg{
@@ -633,7 +659,4 @@ background-color: #1F1E24;
     width: 50em;
     font-size: 7px;
     }
-
-   
-   
 }
